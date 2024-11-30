@@ -71,9 +71,7 @@ FL minimizes direct access to data, but some privacy risks exist.
 ## Bandwidth Optimization
 
 ### Bandwidth Formula
-\[
-(\text{Model Size (out)} + \text{Model Size (in)}) \times \text{Cohort Size} \times \text{Fraction Selected} \times \text{Number of Rounds}
-\]
+-	(Model size out + model size in) * cohort size * Fraction selected * number of rounds
 
 ### Techniques
 - **Reduce Update Size:** Apply sparsification or quantization.
